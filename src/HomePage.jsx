@@ -36,8 +36,8 @@ function HomePage() {
 
   return (
     <div className="font-sans p-4 m-10 border w-80 shadow-2xl rounded-xl text-wrap">
-      <div className="text-left mb-3">Last saved portfolio</div>
-      <div className="font-bold mb-3">Custom Portfolio</div>
+      <div className="text-left mb-3">Testing The Risk</div>
+      <div className="font-bold mb-3">Risk Level</div>
       <div className="flex justify-between items-center">
         <div className="flex">{colorBlock}</div>
         <span>Risk Level: {colorCount}</span>
