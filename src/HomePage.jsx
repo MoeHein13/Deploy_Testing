@@ -37,7 +37,7 @@ function HomePage() {
   return (
     <div className="font-sans p-4 m-10 border w-80 shadow-2xl rounded-xl text-wrap">
       <div className="text-left mb-3">Testing The Risk</div>
-      <div className="font-bold mb-3">Risk Level</div>
+      <div className="font-bold mb-3">Risk Level Below</div>
       <div className="flex justify-between items-center">
         <div className="flex">{colorBlock}</div>
         <span>Risk Level: {colorCount}</span>
@@ -47,7 +47,7 @@ function HomePage() {
           onClick={handleClick}
           className="inline-flex items-center text-blue-800 cursor-pointer font-bold mt-3"
         >
-          View portfolio preference
+          Button Testing As Alert 
           <div className="ml-1">
             <ChevronRight size={20} color="#1a53ff" strokeWidth={1.75} />
           </div>
