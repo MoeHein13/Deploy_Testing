@@ -36,11 +36,11 @@ function HomePage() {
 
   return (
     <div className="font-sans p-4 m-10 border w-80 shadow-2xl rounded-xl text-wrap">
-      <div className="text-left mb-3">Testing The Risk</div>
-      <div className="font-bold mb-3">Risk Level Below</div>
+      <div className="text-left mb-3">Testing The Stress</div>
+      <div className="font-bold mb-3">Stress Level Below</div>
       <div className="flex justify-between items-center">
         <div className="flex">{colorBlock}</div>
-        <span>Risk Level: {colorCount}</span>
+        <span>Stress Level: {colorCount}</span>
       </div>
       <div className="text-right">
         <button
