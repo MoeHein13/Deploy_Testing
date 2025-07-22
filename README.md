@@ -1,6 +1,6 @@
 # React + Vite
 
-# Stress Level Indicator UI – React Practice
+# State Practice UI – React Practice
 
 A simple React practice project that visually displays a "Stress Level" bar using Lucide React icons.
 
